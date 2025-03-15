@@ -1,0 +1,286 @@
+DNA_Toolkit { /* layout for the application*/
+    layout: vertical;
+    background: $boost;
+    padding: 1;
+}
+
+Seq_Display { /* layout and aligmnent for Seq_Display*/
+
+    background: rgb(59, 55, 55);
+    content_align: left top;
+}
+
+Result_Display { /* layout and alingment for Result_Display*/
+
+    background: rgb(59, 55, 55);
+    content_align: left top;
+}
+
+Exit_save { /* layout and display of Exit pop-up window and their content*/
+    align: center middle;
+}
+Exit_save > Container {
+    width: auto;
+    height: auto;
+}
+Exit_save > Container > Horizontal {
+    width: auto;
+    height: auto;
+}
+
+Hid { /* display of Hid widget default*/
+    display: none;
+}
+
+Saving { /* display of Saving widget default*/
+    display: none;
+}
+
+Result_Display {/* display of Result_Display widget default*/
+    display: none;
+}
+.app_db_seq #db_seq{
+    display: block;
+}
+
+#db_seq {
+    display: none;
+}
+
+.app_exitdb #exitdb {
+    display: block;
+}
+
+#exitdb {
+    display: none;
+}
+
+#ens {
+    display: none;
+}
+
+#uni {
+    display: none;
+}
+
+#db1 {
+    dock: right;
+}
+.app_ipt_uni #ipt_uni {
+    display: block;
+}
+
+#ipt_uni {
+    display: none;
+}
+
+.app_ipt_ens #ipt_ens {
+    display: block;
+}
+#ipt_ens {
+    display: none;
+}
+
+.app_label_fail #label_fail { /* display of label_fail widget inside .app_label_fail class*/
+    display: block;
+}
+
+#label_fail { /* display of laberl_fail widget default*/
+    display: none;
+}
+
+.app_label_fin #up_label {/* display of up_label widget inside .app_label_fail class*/
+    display: none;
+}
+
+.app_label_fin #Exitprogram {/* display of Exitprogram widget inside .app_label_fail class*/
+    display: none;
+}
+
+.app_label_fin #Exitsaving {/* display of Exitsaving widget inside .app_label_fail class*/
+    display: none;
+}
+
+.app_label_fin #quit {/* display of quit widget inside .app_label_fail class*/
+    display: block;
+}
+
+.app_label_fin #label_fin {/* display of label_fin widget inside .app_label_fail class*/
+    display: block;
+
+}
+#label_fin {/* display of label_fin widget default*/
+    display: none;
+}
+#quit{/* display of quit widget default*/
+    display: none;
+}
+
+.app_save_file #save_file{/* display of save_file widget inside .app_save_file class*/
+    display: block;
+}
+
+#save_file {/* display of save_file widget default*/
+    display: none;
+}
+
+.app_ni #ni{/* display of ni widget inside .app_ni class*/
+    display: block;
+}
+
+#ni{/* display of ni widget default*/
+    display: none;
+}
+
+#sb {/* display of sb widget default*/
+    display: none;
+}
+
+.app_sb #sb{/* display of sb widget inside .app_sb class*/
+    display: block;
+}
+
+.app_sb_ni #sb_ni{/* display of sb_ni widget inside .app_sb_ni class*/
+    display: block;
+}
+
+#sb_ni {/* display of sb_ni widget default*/
+    display: none;
+}
+
+#num_delete {/* display of num_delete widget default*/
+    display: none;
+}
+
+.app_num_delete #num_delete{/* display of num_delete widget inside .app_num_delete class*/
+    display: block;
+}
+
+
+.app_num_chain #num_chain{/* display of num_chain widget inside .app_num_chain class*/
+    display: block;
+}
+
+#num_chain {/* display of num_chain widget default*/
+    display: none;
+}
+
+.app_n_file #n_file{/* display of n_file widget inside .n_file class*/
+    display: block;
+}
+
+#n_file {/* display of n_file widget default*/
+    display: none;
+}
+
+#Usemut {/* display of Usemut widget default*/
+    display: none;
+}
+.App_butmut #Usemut {/* display of Usemut widget inside .App_butmut class*/
+    display: block;
+}
+
+
+#Mut_input {/* display of Mut_input widget default*/
+    display: none;
+}
+
+.app_Mut_input #Mut_input{/* display of Mut_input widget inside .app_Mut_input class*/
+    display: block;
+}
+
+#Seq_input {/* display of Seq_input widget default*/
+    display: none;
+}
+
+.app_Seq_input #Seq_input{/* display of Seq_input widget inside .app_Seq_input class*/
+    display: block;
+}
+
+
+#volver {/* display of volver widget default*/
+    display: none;
+}
+
+.app_volver #volver {/* display of volver widget inside .app_volver class*/
+    display: block;
+}
+
+#back_menu {/* display of back_menu widget default*/
+    display: none;
+}
+
+.app_menu #back_menu {/* display of back_menu widget inside .app_menu class*/
+    display: block;
+}
+
+
+.show_result_and_seq Result_Display{ /* display of Result_Display widget inside .show_result_and_seq class*/
+    display: block;
+}
+
+.show_result Seq_Display {/* display of Seq_display widget inside .show_result class*/
+    display: none;
+}
+
+
+.show_result Result_Display {/* display of Result_Display widget inside .show_result class*/
+    display: block;
+}
+
+.initial #two_one{ /* display of two_X widget inside .initial class*/
+    display: none;
+}
+.initial #two_two{
+    display: none;
+}
+.initial #two_three{
+    display: none;
+}
+.initial #two_four{
+    display: none;
+}
+.initial #two_five{
+    display: none;
+}
+.initial #two_six{
+    display: none;
+}
+.initial #two_seven{
+    display: none;
+}
+.initial #two_eight{
+    display: none;
+}
+
+
+
+.ops_menu #one{ /* display of #X widget inside .ops_menu class*/
+    display: none;
+}
+.ops_menu #two{
+    display: none;
+}
+.ops_menu #three{
+    display: none;
+}
+.ops_menu #four{
+    display: none;
+}
+.ops_menu #five{
+    display: none;
+}
+.ops_menu #six{
+    display: none;
+}
+.ops_menu #db1 {
+    display: none;
+}
+
+
+.db_menu #ens{
+    display: block;
+}
+.db_menu #uni {
+    display: block;
+}
